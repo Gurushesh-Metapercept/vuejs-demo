@@ -61,5 +61,15 @@ export default {
             this.show = !this.show
         }
     },
+    // beforeDestroy book will be called just before vue instanced is destroyed
+    beforeDestroy() {
+        alert("beforeDestroy hook is called")
+        
+    },
+
+    // destroyed hook will be called after vue instanced is destroyed
+    destroyed(){
+        alert("destroyed hook is called")
+    }
 }
 </script>

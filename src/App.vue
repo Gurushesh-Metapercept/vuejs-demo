@@ -17,7 +17,7 @@
 
 <script>
 import Navbar from './components/Navbar.vue';
-import Home from './router/Home.vue';
+import Home from './views/Home.vue';
 
 export default {
   name: 'App',
